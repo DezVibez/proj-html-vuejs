@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <BaseHeader :list="avadaList"/>
     <BaseMain />
     <BaseFooter :list="avadaList"/>
@@ -10,8 +10,6 @@
 import BaseHeader from './components/BaseHeader.vue';
 import BaseMain from './components/BaseMain.vue';
 import BaseFooter from './components/BaseFooter.vue';
-
-//"Who We Are","What We Do","Where We Work","Careers","News","Get In Touch Now"
 
 export default {
   name: 'App',
@@ -29,12 +27,5 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  *{
-    list-style-type: none;
-    padding: 0;
-    margin: 0; 
-    box-sizing: border-box;
-  }
-}
+  @import "./assets/sass/style.scss";
 </style>
