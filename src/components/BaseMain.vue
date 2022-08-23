@@ -1,5 +1,5 @@
 <template>
-
+<div>
   <div class="meet-section">
     <div class="my-container">
       <div class=" mx-auto pt-5">
@@ -45,6 +45,26 @@
     </div>
 
   </div>
+
+  <div class="see-services-section text-white">
+
+    <div class="my-container">
+
+      <div class="text-center mx-auto py-5">
+        <h2 class="fw-bold my-3">
+          See Our Top Notch Services
+        </h2>
+
+        <p class="w-50 mx-auto">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus ea aut soluta esse aperiam labore deleniti illum? 
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+  
+</div>
 </template>
 
 <script>
@@ -61,25 +81,37 @@ export default {
 
 @import "../assets/sass/vars";
 
+//utils
+  .my-container {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+//meet-section
 .meet-section{
   background-color: $meet_bg;
+
+  .meet-section-card{
+  width: 32%;
+  }
+
+  .my-table{
+    height: 420px;
+    background-image: url(../assets/images/agency-seo-desk-front-1200x570.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -2rem;
+  }
 }
 
-.my-container {
-  max-width: 70%;
-  margin: 0 auto;
-}
-
-.meet-section-card{
-width: 32%;
-}
-
-.my-table{
-  height: 420px;
-  background-image: url(../assets/images/agency-seo-desk-front-800x380.jpg);
+//see-services-section
+.see-services-section{
+  height: 500px;
+  background-image: url(../assets/images/pattern_background.png);
+  background-color: $see_service_bg;
+  background-position-x: -3rem;
+  background-position-y: -1rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -2rem;
 }
-
 </style>
