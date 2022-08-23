@@ -79,25 +79,53 @@
 
   </div>
 
-  <div class="our-work">
+  <div class="our-work py-3">
 
     <div class="my-container">
       <div class="text-center mx-auto py-5">
         <h2 class="fw-bold my-3">
-          See Our Top Notch Services
+          Our Work
         </h2>
 
         <p class="w-50 mx-auto">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus ea aut soluta esse aperiam labore deleniti illum? 
         </p>
       </div>
+
+      <div class="our-work-card-box d-flex flex-wrap justify-content-between mb-3">
+        <div class="our-work-card my-2">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-1-1.jpg" alt="">
+        </div>
+        <div class="our-work-card my-2">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-2.jpg" alt="">
+        </div>
+        <div class="our-work-card my-2">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-3-1.jpg" alt="">
+        </div>
+        <div class="our-work-card my-2">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-4-1.jpg" alt="">
+        </div>
+        <div class="our-work-card my-2">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-5-1.jpg" alt="">
+        </div>
+        <div class="our-work-card my-2">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-6-1.jpg" alt="">
+        </div>
+
+
+      </div>
+
+      <div class="d-flex justify-content-center my-5">
+        <button class="main-btn fw-bold general-font">
+        VIEW OUR WORK
+        </button>
+      </div>
+
     </div>
 
   </div>
 
-  <div>
-
-  </div>
+  
   
 </div>
 </template>
@@ -157,6 +185,10 @@ export default {
 
 //our-work-section
 .our-work{
-  height:500px
+  
+
+  .our-work-card{
+    width: 32%;
+  }
 }
 </style>
