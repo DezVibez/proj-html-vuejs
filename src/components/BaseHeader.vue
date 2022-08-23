@@ -1,6 +1,9 @@
 <template>
-  <div class="hello">
-    <h1 v-for="(listItem, index) in list" :key="index">{{listItem}}</h1>
+  <div>
+    <ul class="d-flex">
+      <li class="mx-3" v-for="(listItem, index) in list" :key="index">{{listItem}}</li>
+    </ul>
+    
   </div>
 </template>
 
