@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
-    <h1></h1>
+    <ul>
+        
+    </ul>
   </div>
 </template>
 
@@ -8,7 +10,7 @@
 export default {
   name: 'BaseMain',
   props: {
-    msg: String
+    
   }
 }
 </script>

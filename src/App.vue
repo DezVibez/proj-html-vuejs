@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <BaseHeader />
+    <BaseHeader :list="avadaList"/>
     <BaseMain />
     <BaseFooter />
   </div>
@@ -11,7 +11,7 @@ import BaseHeader from './components/BaseHeader.vue';
 import BaseMain from './components/BaseMain.vue';
 import BaseFooter from './components/BaseFooter.vue';
 
-
+//"Who We Are","What We Do","Where We Work","Careers","News","Get In Touch Now"
 
 export default {
   name: 'App',
@@ -19,7 +19,12 @@ export default {
     BaseHeader,
     BaseMain,
     BaseFooter
-  }
+  },
+  data() {
+    return {
+      avadaList:["Home","Who We Are","Where We Work","Careers","News","Get In Touch Now"] 
+    }
+  },
 }
 </script>
 
