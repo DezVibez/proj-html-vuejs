@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Ciao Bello</h1>
+    <h1 v-for="(listItem, index) in list" :key="index">{{listItem}}</h1>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'BaseFooter',
   props: {
-    msg: String
+    list: Array
   }
 }
 </script>

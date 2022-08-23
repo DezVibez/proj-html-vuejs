@@ -2,7 +2,7 @@
   <div id="app">
     <BaseHeader :list="avadaList"/>
     <BaseMain />
-    <BaseFooter />
+    <BaseFooter :list="avadaList"/>
   </div>
 </template>
 
