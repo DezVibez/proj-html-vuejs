@@ -26,6 +26,25 @@
 
         </div>
 
+        <div class="jumbo-title">
+
+          <h1 class="fw-bold">
+            SEM Campaing Made Simple With Avada
+          </h1>
+          <p class="general-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum commodi id non assumenda consectetur. 
+          </p>
+
+          <button class="main-btn me-3 general-font">
+            BUY AVADA NOW
+          </button>
+
+          <button class="jumbo-btn general-font">
+            CONTACT US
+          </button>
+
+        </div>
+
 
       </div>
         
@@ -58,7 +77,7 @@ export default {
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -9rem;
+  background-position-x: -7rem;
   background-image: url("../assets/images/1-hero-image.png");
 
   li:hover{
@@ -66,6 +85,13 @@ export default {
   }
   button{
     border: none;
+  }
+
+  .jumbo-title{
+    width: 40%;
+    position: relative;
+    left:0;
+    top:10rem;
   }
 }
 </style>
