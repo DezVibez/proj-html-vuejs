@@ -24,7 +24,7 @@
 
         <div class="d-flex justify-content-between mb-5">
           <div class="text-center border p-5  meet-section-card bg-white">
-
+            
           </div>
 
           <div class="text-center border p-5 meet-section-card bg-white">
@@ -46,7 +46,7 @@
 
   </div>
 
-  <div class="see-services-section text-white">
+  <div class="see-services-section text-white py-5">
 
     <div class="my-container">
 
@@ -60,7 +60,42 @@
         </p>
       </div>
 
+      <div class="service-card-box d-flex justify-content-between pb-5">
+        <div class="service-card border p-3">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate sunt! Ea, voluptatum. Ea odit aliquid cupiditate enim iusto eaque 
+        </div>
+        <div class="service-card border p-3">
+
+        </div>
+        <div class="service-card border p-3">
+
+        </div>
+        <div class="service-card border p-3">
+
+        </div>
+      </div>
+
     </div>
+
+  </div>
+
+  <div class="our-work">
+
+    <div class="my-container">
+      <div class="text-center mx-auto py-5">
+        <h2 class="fw-bold my-3">
+          See Our Top Notch Services
+        </h2>
+
+        <p class="w-50 mx-auto">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus ea aut soluta esse aperiam labore deleniti illum? 
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div>
 
   </div>
   
@@ -106,12 +141,22 @@ export default {
 
 //see-services-section
 .see-services-section{
-  height: 500px;
+  
   background-image: url(../assets/images/pattern_background.png);
   background-color: $see_service_bg;
   background-position-x: -3rem;
   background-position-y: -1rem;
   background-repeat: no-repeat;
   background-size: cover;
+
+  .service-card{
+    width: 24%;
+    background-color: $service_card_bg;
+  }
+}
+
+//our-work-section
+.our-work{
+  height:500px
 }
 </style>
