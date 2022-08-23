@@ -1,0 +1,16 @@
+@import "../sass/vars";
+
+.main-btn{
+    padding: 0.7rem;
+    border-radius: 1.2rem;
+    color: white;
+    background-color: $primary_col;
+}
+
+.general-btn{
+    padding: 1rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid $btn_gray;
+    color: $btn_gray;
+    background-color: white ;
+}

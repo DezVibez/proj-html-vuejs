@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      avadaList:["Home","Who We Are","Where We Work","Careers","News","Get In Touch Now"] 
+      avadaList:["Home","Who We Are","Where We Work","Careers","News",] 
     }
   },
 }
