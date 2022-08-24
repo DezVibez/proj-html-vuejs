@@ -279,8 +279,78 @@
     </div>
   </div>
 
-  <div class="our-news">
+  <div class="our-news pb-3">
     <div class="my-container">
+
+      <div class="text-center mx-auto py-5">
+        <h2 class="fw-bold my-3">
+          Our News
+        </h2>
+
+        <p class="w-50 mx-auto">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus ea aut soluta esse aperiam labore deleniti illum? 
+        </p>
+      </div>
+
+      <div class="our-news-card-box d-flex justify-content-between mb-3">
+        <div class="our-news-card my-3">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-1-1.jpg" alt="">
+          <div>
+            <h6 class="text-center mt-3">
+              Why You Need A SEO Agency Now
+            </h6>
+  
+            <div class="news-date text-center">
+              November 1st, 2017
+            </div>
+
+            <p class="text-center general-font my-3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab laudantium, explicabo nobis ad sint commodi iusto tenetur
+            </p>
+          </div>
+        </div>
+        <div class="our-news-card my-3">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-1-1.jpg" alt="">
+          <div>
+            <h6 class="text-center mt-3">
+              Why You Need A SEO Agency Now
+            </h6>
+  
+            <div class="news-date text-center">
+              November 1st, 2017
+            </div>
+
+            <p class="text-center general-font my-3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab laudantium, explicabo nobis ad sint commodi iusto tenetur
+            </p>
+          </div>
+        </div>
+        <div class="our-news-card my-3">
+          <img class="img-fluid" src="../assets/images/case-study-gallery-1-1.jpg" alt="">
+          <div>
+            <h6 class="text-center mt-3">
+              Why You Need A SEO Agency Now
+            </h6>
+  
+            <div class="news-date text-center">
+              November 1st, 2017
+            </div>
+
+            <p class="text-center general-font my-3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab laudantium, explicabo nobis ad sint commodi iusto tenetur
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pb-5">
+        <div class="news-btn main-btn fw-bold general-font mx-auto text-center">
+          GO TO NEWS
+        </div>
+      </div>
+        
+
+
 
     </div>
   </div>
@@ -348,6 +418,7 @@ export default {
 
 //our-work-section
 .our-work{
+  background-color: $meet_bg;
   
 
   .our-work-card{
@@ -413,6 +484,23 @@ export default {
 //our-plans-section
 .our-news{
   background-color: $meet_bg;
-  height: 500px;
+
+  .our-news-card{
+    width: 32%;
+
+    h6 {
+      color: $primary_col;
+      margin: 0;
+    }
+
+    .news-date{
+      font-size:12px;
+    }
+
+  }
+
+  .news-btn{
+      width: 150px;
+    }
 }
 </style>
