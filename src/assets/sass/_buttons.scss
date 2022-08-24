@@ -16,9 +16,18 @@
 }
 
 .general-btn{
-    padding: 1rem;
-    border-radius: 1.2rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 2rem;
     border: 0.1rem solid $btn_gray;
     color: $btn_gray;
     background-color: white ;
+
+    &:hover{
+        background-color: $primary_col;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
 }
+

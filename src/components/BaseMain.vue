@@ -125,6 +125,160 @@
 
   </div>
 
+  <div class="our-plans">
+    <div class="my-container">
+      <div class="text-center mx-auto py-5 text-white">
+        <h2 class="fw-bold my-3">
+          Our Plans
+        </h2>
+
+        <p class="w-50 mx-auto">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus ea aut soluta esse aperiam labore deleniti illum? 
+        </p>
+      </div>
+
+      <div class="our-plans-card-box d-flex justify-content-between">
+        <div class="our-plans-card p-3 mb-5">
+          <H5 class="fw-bold text-center">
+            Standard
+          </H5>
+          <div class="plan-price d-flex">
+            <div>
+              <span class="dollar mb-1 align-self-end">$</span>
+              <span class="main-price fs-1 fw-bold">19</span>
+            </div>
+            <div class="d-flex flex-column justify-content-evenly">
+              <span class="sub-price fw-bold">
+                99
+              </span>
+              <span class="monthly">
+                monthly
+              </span>
+            </div>
+
+          </div>
+
+          <div class="text-center my-3">5 projects</div>
+
+          <div class="text-center my-3">5 GB Storage</div>
+
+          <div class="text-center my-3">Unlimited Users</div>
+
+          
+
+          <div class="general-btn fw-bold general-font mx-auto w-75 my-3">
+            START TODAY
+          </div>
+            
+
+        </div>
+
+        <div class="our-plans-card p-3 mb-5">
+
+          <H5 class="fw-bold text-center">
+            Standard
+          </H5>
+          <div class="plan-price d-flex">
+            <div>
+              <span class="dollar mb-1 align-self-end">$</span>
+              <span class="main-price fs-1 fw-bold">19</span>
+            </div>
+            <div class="d-flex flex-column justify-content-evenly">
+              <span class="sub-price fw-bold">
+                99
+              </span>
+              <span class="monthly">
+                monthly
+              </span>
+            </div>
+
+          </div>
+
+          <div class="text-center my-3 ">5 projects</div>
+
+          <div class="text-center my-3 ">5 GB Storage</div>
+
+          <div class="text-center my-3">Unlimited Users</div>
+
+          
+
+          <div class="general-btn fw-bold general-font mx-auto w-75 my-3">
+            START TODAY
+          </div>
+
+        </div>
+
+        <div class="our-plans-card p-3 mb-5">
+          <H5 class="fw-bold text-center">
+            Standard
+          </H5>
+          <div class="plan-price d-flex">
+            <div>
+              <span class="dollar mb-1 align-self-end">$</span>
+              <span class="main-price fs-1 fw-bold">19</span>
+            </div>
+            <div class="d-flex flex-column justify-content-evenly">
+              <span class="sub-price fw-bold">
+                99
+              </span>
+              <span class="monthly">
+                monthly
+              </span>
+            </div>
+
+          </div>
+
+          <div class="text-center my-3 ">5 projects</div>
+
+          <div class="text-center my-3 ">5 GB Storage</div>
+
+          <div class="text-center my-3">Unlimited Users</div>
+
+          
+
+          <div class="general-btn fw-bold general-font mx-auto w-75 my-3">
+            START TODAY
+          </div>
+
+        </div>
+
+        <div class="our-plans-card p-3 mb-5">
+          <H5 class="fw-bold text-center">
+            Standard
+          </H5>
+          <div class="plan-price d-flex">
+            <div>
+              <span class="dollar mb-1 align-self-end">$</span>
+              <span class="main-price fs-1 fw-bold">19</span>
+            </div>
+            <div class="d-flex flex-column justify-content-evenly">
+              <span class="sub-price fw-bold">
+                99
+              </span>
+              <span class="monthly">
+                monthly
+              </span>
+            </div>
+
+          </div>
+
+          <div class="text-center my-3 ">5 projects</div>
+
+          <div class="text-center my-3 ">5 GB Storage</div>
+
+          <div class="text-center my-3">Unlimited Users</div>
+
+          
+
+          <div class="general-btn fw-bold general-font mx-auto w-75 my-3">
+            START TODAY
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
   
 
   
@@ -145,6 +299,7 @@ export default {
 <style scoped lang="scss">
 
 @import "../assets/sass/vars";
+@import "../assets/sass/buttons";
 
 //utils
   .my-container {
@@ -191,6 +346,61 @@ export default {
 
   .our-work-card{
     width: 32%;
+  }
+}
+
+//our-plans-section
+.our-plans{
+  
+  background-image: url(../assets/images/background1.jpg);
+  background-position-y: -10rem;
+  background-position-x: -26rem;
+  background-repeat: no-repeat;
+
+  .our-plans-card {
+    width: 24%;
+    min-height: 200px;
+    background-color: white;
+
+    .plan-price{ 
+      position:relative;
+      height:70px;
+      left:40px;
+
+      .main-price{
+      position:absolute;
+      top: 0px;
+      left: 10px;
+      color:$secondary_btn_col;
+    }
+
+    .sub-price{
+      position:absolute;
+      top: 10px;
+      left: 55px;
+      font-size: 12px;
+      color:$secondary_btn_col;
+    }
+
+    .monthly{
+      position:absolute;
+      top: 32px;
+      left: 55px;
+      font-size: 11px;
+      color: $btn_gray;
+      font-style: italic;
+      font-weight:900;
+    }
+
+    .dollar{
+      position:absolute;
+      top: 10px;
+      left: 0px;
+      font-weight: bold;
+    }
+    }
+
+    
   }
 }
 </style>
