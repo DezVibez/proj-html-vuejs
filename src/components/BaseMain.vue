@@ -356,7 +356,30 @@
   </div>
 
   <div class="clients-say">
+    <div class="my-container">
+      <div class="text-center mx-auto py-5">
+        <h2 class="fw-bold my-3">
+          What Our Clients Say
+        </h2>
 
+        <div class="d-flex justify-content-center my-5">
+          <div class="client-card">
+            <img class="img-fluid border client-img" src="../assets/images/testimonials-2.jpg" alt="">
+          </div>
+        </div>
+
+        <p class="w-50 mx-auto general-font fst-italic">
+          Ability proceed from a fusion of skills, knowledge, understanding and imagination,
+          consolidated by experience
+        </p>
+
+        <div class="general-font">
+          <span class="fw-bold">Luis Desalvo, </span>
+          <span>CREO TECH</span>
+        </div>
+
+      </div>
+    </div>
   </div>
 
   
@@ -370,6 +393,15 @@
 export default {
   name: 'BaseMain',
   props: {
+    
+  },
+  data(){
+    return{
+      
+    }
+    
+  },
+  methods:{
     
   }
 }
@@ -509,4 +541,16 @@ export default {
 }
 
 //clients-say-section
+.clients-say{
+  height:500px;
+
+  .client-card{
+    width: 150px;
+    height: 150px;
+    
+    .client-img{
+      border-radius: 50%;
+    }
+  }
+}
 </style>
