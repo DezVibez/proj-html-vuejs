@@ -279,6 +279,12 @@
     </div>
   </div>
 
+  <div class="our-news">
+    <div class="my-container">
+
+    </div>
+  </div>
+
   
 
   
@@ -402,5 +408,11 @@ export default {
 
     
   }
+}
+
+//our-plans-section
+.our-news{
+  background-color: $meet_bg;
+  height: 500px;
 }
 </style>
