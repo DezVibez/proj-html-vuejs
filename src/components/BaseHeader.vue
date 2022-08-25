@@ -82,6 +82,7 @@ export default {
 
   li:hover{
     color: $primary_col;
+    cursor: pointer;
   }
   button{
     border: none;

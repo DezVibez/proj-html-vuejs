@@ -422,6 +422,17 @@
             <span>CREO TECH</span>
           </div>
 
+          <div class="d-flex justify-content-center">
+            <div class="client-dot my-3 mx-1">
+
+            </div>
+
+            <div class="client-dot my-3 mx-1">
+
+            </div>
+
+          </div>
+
           <div class="client-line border mt-5"></div>
         </div>
 
@@ -636,7 +647,24 @@ export default {
       height: 1px;
       width: 70%;
     }
+
+    
   }
+
+  .client-dot{
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background-color: white;
+      border: 1px $btn_gray solid;
+
+      &:hover{
+      background-color: black;
+      cursor: pointer;
+      }
+    }
+
+    
 }
 
 //clients-say-section
