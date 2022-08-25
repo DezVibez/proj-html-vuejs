@@ -337,11 +337,11 @@
           <div class="our-news-card my-3">
             <img
               class="img-fluid"
-              src="../assets/images/case-study-gallery-1-1.jpg"
+              src="../assets/images/related-service-2-700x441.jpg"
               alt=""
             />
             <div>
-              <h6 class="text-center mt-3">Why You Need A SEO Agency Now</h6>
+              <h6 class="text-center mt-3 fw-bold">Why You Need A SEO Agency Now</h6>
 
               <div class="news-date text-center">November 1st, 2017</div>
 
@@ -354,11 +354,11 @@
           <div class="our-news-card my-3">
             <img
               class="img-fluid"
-              src="../assets/images/case-study-gallery-1-1.jpg"
+              src="../assets/images/related-service-4-700x441.jpg"
               alt=""
             />
             <div>
-              <h6 class="text-center mt-3">Why You Need A SEO Agency Now</h6>
+              <h6 class="text-center mt-3 fw-bold">SEO Tips For Your Startup</h6>
 
               <div class="news-date text-center">November 1st, 2017</div>
 
@@ -371,11 +371,11 @@
           <div class="our-news-card my-3">
             <img
               class="img-fluid"
-              src="../assets/images/case-study-gallery-1-1.jpg"
+              src="../assets/images/blog-post-6-700x441.jpg"
               alt=""
             />
             <div>
-              <h6 class="text-center mt-3">Why You Need A SEO Agency Now</h6>
+              <h6 class="text-center mt-3 fw-bold">Image Optimization For Your Style</h6>
 
               <div class="news-date text-center">November 1st, 2017</div>
 
