@@ -7,10 +7,19 @@
         <img class="img-fluid" src="../assets/images/logo_seo_1x.png" alt="">
       </div>
 
-      <ul class="d-flex general-font justify-content-between">
+      <ul class="footer-main-list d-flex general-font justify-content-between my-5" >
         <li class="" v-for="(listItem, index) in list" :key="index">{{listItem}}</li>
         <li>Get In Touch Now</li>
       </ul>
+
+      <ul class="d-flex general-font footer-sub-list">
+        <li class="border-end px-3">Copyright 2012-2020</li>
+        <li class="border-end px-3">Avada Theme by <span class="text-black">ThemeFusion</span></li> 
+        <li class="border-end px-3">All Right Reserved</li>
+        <li class="px-3">Powered by <span class="text-black">WordPress</span></li>
+      </ul>
+
+
     </div>
 
     
@@ -36,13 +45,21 @@ export default {
 .last-section{
   height: 300px;
 
-  li{
-    color:$btn_gray;
+  .footer-main-list{
+
+    .li{
+      color:$btn_gray;
+    }
+
+    li:hover{
+      color: $primary_col;
+    }
   }
 
-  li:hover{
-    color: $primary_col;
+  .footer-sub-list{
+    color:$btn_gray;
   }
+  
 
   .little-container{
     margin: 0 auto;
