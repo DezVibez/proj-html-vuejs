@@ -403,9 +403,25 @@
     </div>
   </div>
 
-  <div>
+  <div class="start-consult">
+    <div class="my-overlay">
+      <div class="text-center mx-auto py-5 text-white">
+        <h2 class="fw-bold my-3 mt-5">
+          Start Your Free Consultation
+        </h2>
 
+        <p class="w-50 mx-auto my-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus ea aut soluta esse aperiam labore deleniti illum? 
+        </p>
+
+        <span class="main-btn w-25 fw-bold general-font">
+          CONTACT US NOW
+        </span>
+      </div>
+
+    </div>
   </div>
+
 
   
 
@@ -580,6 +596,21 @@ export default {
       height: 1px;
       width: 70%
     }
+  }
+}
+
+//clients-say-section
+.start-consult{
+  height:420px;
+  background-image: url(../assets/images/CTA-seo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .my-overlay{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.6)
+    
   }
 }
 </style>
