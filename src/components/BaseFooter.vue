@@ -19,6 +19,11 @@
         <li class="px-3">Powered by <span class="text-black">WordPress</span></li>
       </ul>
 
+      <div class="social d-flex">
+        <div></div>
+
+      </div>
+
 
     </div>
 
