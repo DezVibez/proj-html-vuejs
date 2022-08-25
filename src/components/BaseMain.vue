@@ -356,8 +356,8 @@
   </div>
 
   <div class="clients-say">
-    <div class="my-container">
-      <div class="text-center mx-auto py-5">
+    <div class="my-container ">
+      <div class="text-center mx-auto py-3">
         <h2 class="fw-bold my-3">
           What Our Clients Say
         </h2>
@@ -377,9 +377,34 @@
           <span class="fw-bold">Luis Desalvo, </span>
           <span>CREO TECH</span>
         </div>
+        
+        <div class="client-line border mt-5">
+
+        </div>
+
+
 
       </div>
+
+      <div class="d-flex">
+        <div class="w-25 p-5">
+          <img class="img-fluid" src="../assets/images/clients_partner_5-200x202.png" alt="">
+        </div>
+        <div class="w-25 p-5">
+          <img class="img-fluid" src="../assets/images/clients_partner_6-200x202.png" alt="">
+        </div>
+        <div class="w-25 p-5">
+          <img class="img-fluid" src="../assets/images/clients_partner_1-200x202.png" alt="">
+        </div>
+        <div class="w-25 p-5">
+          <img class="img-fluid" src="../assets/images/clients_partner_2-200x202.png" alt="">
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div>
+
   </div>
 
   
@@ -542,7 +567,6 @@ export default {
 
 //clients-say-section
 .clients-say{
-  height:500px;
 
   .client-card{
     width: 150px;
@@ -550,6 +574,11 @@ export default {
     
     .client-img{
       border-radius: 50%;
+    }
+
+    .client-line{
+      height: 1px;
+      width: 70%
     }
   }
 }
