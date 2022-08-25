@@ -61,17 +61,69 @@
       </div>
 
       <div class="service-card-box d-flex justify-content-between pb-5">
-        <div class="service-card border p-3">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate sunt! Ea, voluptatum. Ea odit aliquid cupiditate enim iusto eaque 
-        </div>
-        <div class="service-card border p-3">
+        <div class="service-card  p-3">
+          <div class="text-center mx-auto">
 
-        </div>
-        <div class="service-card border p-3">
+            <span class="fs-4"><i class="fa-brands fa-google"></i></span>
 
-        </div>
-        <div class="service-card border p-3">
+            <h5 class="fw-bold my-3">
+              Google SEO
+            </h5>
 
+            <p class="">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus adipisicing elit. Quia sequi hic doloribus 
+            </p>
+
+            <span class="general-font">Read More <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+        </div>
+        <div class="service-card p-3">
+          <div class="text-center mx-auto">
+
+            <span class="fs-4"><i class="fa-solid fa-gear"></i></span>
+
+            <h5 class="fw-bold my-3">
+              Brand Strategy
+            </h5>
+
+            <p class="">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus adipisicing elit. Quia sequi hic doloribus 
+            </p>
+
+            <span class="general-font">Read More <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+        </div>
+        <div class="service-card p-3">
+          <div class="text-center mx-auto">
+
+            <span class="fs-4"><i class="fa-solid fa-building"></i></span>
+
+            <h5 class="fw-bold my-3">
+              Local SEO
+            </h5>
+
+            <p class="">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus adipisicing elit. Quia sequi hic doloribus 
+            </p>
+
+            <span class="general-font">Read More <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+        </div>
+        <div class="service-card p-3">
+          <div class="text-center mx-auto">
+
+            <span class="fs-4"><i class="fa-solid fa-chart-line"></i></span>
+
+            <h5 class="fw-bold my-3">
+              SEO Analysis
+            </h5>
+
+            <p class="">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sequi hic doloribus adipisicing elit. Quia sequi hic doloribus 
+            </p>
+
+            <span class="general-font">Read More <i class="fa-solid fa-angle-right"></i></span>
+        </div>
         </div>
       </div>
 
@@ -490,6 +542,11 @@ export default {
   .service-card{
     width: 24%;
     background-color: $service_card_bg;
+
+    span{
+      color:$primary_col;
+    }
+
   }
 }
 
