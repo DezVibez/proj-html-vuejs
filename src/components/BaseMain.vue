@@ -248,11 +248,11 @@
           </div>
 
           <div class="our-plans-card p-3 mb-5">
-            <H5 class="fw-bold text-center"> Standard </H5>
+            <H5 class="fw-bold text-center"> Premium </H5>
             <div class="plan-price d-flex">
               <div>
                 <span class="dollar mb-1 align-self-end">$</span>
-                <span class="main-price fs-1 fw-bold">19</span>
+                <span class="main-price fs-1 fw-bold">29</span>
               </div>
               <div class="d-flex flex-column justify-content-evenly">
                 <span class="sub-price fw-bold"> 99 </span>
@@ -260,9 +260,9 @@
               </div>
             </div>
 
-            <div class="text-center my-3">5 projects</div>
+            <div class="text-center my-3">10 projects</div>
 
-            <div class="text-center my-3">5 GB Storage</div>
+            <div class="text-center my-3">15 GB Storage</div>
 
             <div class="text-center my-3">Unlimited Users</div>
 
@@ -272,11 +272,11 @@
           </div>
 
           <div class="our-plans-card p-3 mb-5">
-            <H5 class="fw-bold text-center"> Standard </H5>
+            <H5 class="fw-bold text-center"> Professional </H5>
             <div class="plan-price d-flex">
               <div>
                 <span class="dollar mb-1 align-self-end">$</span>
-                <span class="main-price fs-1 fw-bold">19</span>
+                <span class="main-price fs-1 fw-bold">39</span>
               </div>
               <div class="d-flex flex-column justify-content-evenly">
                 <span class="sub-price fw-bold"> 99 </span>
@@ -284,9 +284,9 @@
               </div>
             </div>
 
-            <div class="text-center my-3">5 projects</div>
+            <div class="text-center my-3">15 projects</div>
 
-            <div class="text-center my-3">5 GB Storage</div>
+            <div class="text-center my-3">30 GB Storage</div>
 
             <div class="text-center my-3">Unlimited Users</div>
 
@@ -296,11 +296,11 @@
           </div>
 
           <div class="our-plans-card p-3 mb-5">
-            <H5 class="fw-bold text-center"> Standard </H5>
+            <H5 class="fw-bold text-center"> Extreme </H5>
             <div class="plan-price d-flex">
               <div>
                 <span class="dollar mb-1 align-self-end">$</span>
-                <span class="main-price fs-1 fw-bold">19</span>
+                <span class="main-price fs-1 fw-bold">59</span>
               </div>
               <div class="d-flex flex-column justify-content-evenly">
                 <span class="sub-price fw-bold"> 99 </span>
@@ -308,9 +308,9 @@
               </div>
             </div>
 
-            <div class="text-center my-3">5 projects</div>
+            <div class="text-center my-3">Unlimited projects</div>
 
-            <div class="text-center my-3">5 GB Storage</div>
+            <div class="text-center my-3">Unlimited Storage</div>
 
             <div class="text-center my-3">Unlimited Users</div>
 
@@ -579,7 +579,7 @@ export default {
       .main-price {
         position: absolute;
         top: 0px;
-        left: 10px;
+        left:6px;
         color: $secondary_btn_col;
       }
 
@@ -604,7 +604,7 @@ export default {
       .dollar {
         position: absolute;
         top: 10px;
-        left: 0px;
+        left: -5px;
         font-weight: bold;
       }
     }

@@ -53,6 +53,16 @@ export default {
 .last-section{
   height: 260px;
 
+  .little-container{
+    margin: 0 auto;
+    max-width: 50%;
+
+    .footer-logo{
+      margin: 0 auto;
+      width: 150px;
+    }
+  }
+
   .footer-main-list{
 
     .li{
@@ -69,17 +79,9 @@ export default {
     color:$btn_gray;
   }
   
-
-  .little-container{
-    margin: 0 auto;
-    max-width: 50%;
-
-    .footer-logo{
-      margin: 0 auto;
-      width: 150px;
-    }
-  }
 }
+
+  
 
 
 </style>
