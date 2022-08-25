@@ -1,7 +1,7 @@
 <template>
   <div class="last-section">
 
-    <div class="little-container border">
+    <div class="little-container">
 
       <div class="footer-logo my-4">
         <img class="img-fluid" src="../assets/images/logo_seo_1x.png" alt="">
@@ -19,8 +19,11 @@
         <li class="px-3">Powered by <span class="text-black">WordPress</span></li>
       </ul>
 
-      <div class="social d-flex">
-        <div></div>
+      <div class="social d-flex justify-content-center">
+        <div class="mx-2"><i class="fa-brands fa-facebook"></i></div>
+        <div class="mx-2"><i class="fa-brands fa-instagram"></i></div>
+        <div class="mx-2"><i class="fa-brands fa-twitter"></i></div>
+        <div class="mx-2"><i class="fa-brands fa-youtube"></i></div>
 
       </div>
 
@@ -48,7 +51,7 @@ export default {
 @import "../assets/sass/vars";
 
 .last-section{
-  height: 300px;
+  height: 260px;
 
   .footer-main-list{
 
